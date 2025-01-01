@@ -54,40 +54,6 @@ A simple web application that allows users to upload a CSV file and convert it i
 npm start
 ```
 By default, the React frontend will be available at http://localhost:3000.
-<<<<<<< HEAD
-
-### Backend Setup (BE)
-
-1. **Navigate to the BE folder:**
-
-  ```
-  cd csv-to-json-converter/BE
-  ```
-
-2. **Install Go dependencies:**
-  ```
-  go mod tidy
-  ```
-
-3. **Start the backend server:**
-  ```
-  go run main.go
-  ```
-The backend will be running on http://localhost:8081.
-
-### API Endpoints
-`POST /convert`
-
-- Description: Sample endpoint to check if the backend is working. (optional for testing)
-- Response:
-  - Simple message confirming the API is running.
-  - Example Response:
-  ```
-  {
-  "message": "API is running"
-  }
-  ```
-=======
 
 ### Backend Setup (BE)
 
@@ -124,4 +90,3 @@ The backend will be running on http://localhost:8081.
   
 
 
->>>>>>> refs/remotes/origin/main
