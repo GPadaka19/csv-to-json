@@ -13,7 +13,6 @@ A simple web application that allows users to upload a CSV file and convert it i
   - [Backend Setup](#backend-setup)
 - [API Endpoints](#api-endpoints)
 - [Development and Production Builds](#development-and-production-builds)
-- [Contributing](#contributing)
 
 ## Tech Stack
 
