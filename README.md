@@ -41,19 +41,17 @@ A simple web application that allows users to upload a CSV file and convert it i
 
 ### Frontend Setup (FE)
 
-1. Clone the repository:
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/your-username/csv-to-json-converter.git
    cd csv-to-json-converter/FE
 
-2. Install the required dependencies:
+2. **Install the required dependencies:**
 
-  ```bash
-  npm install
+`  npm install
+`
+3. **Start the frontend development server:**
 
-3. Start the frontend development server:
-
-  ```bash
-Copy code
-
+`Copy code
+`
