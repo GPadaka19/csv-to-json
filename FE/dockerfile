@@ -1,0 +1,14 @@
+# Step 1: Gunakan image dasar untuk web server
+FROM nginx:stable-alpine
+
+# Step 2: Salin build React ke direktori Nginx
+COPY build /usr/share/nginx/html
+
+# Step 3: Salin konfigurasi Nginx default
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Step 4: Expose port 80 untuk aplikasi
+EXPOSE 80
+
+# Step 5: Jalankan Nginx saat container dimulai
+CMD ["nginx", "-g", "daemon off;"]
